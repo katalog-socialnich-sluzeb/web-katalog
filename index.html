@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Úvod</title>
+  <style>
+ .btn {
+    background-color: #ffffff;
+    color: #003366;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .btn:hover {
+    background-color: #cccccc;
+  }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #003366; /* 🔵 Přidáno pro celkové tmavě modré pozadí */
+      color: white;
+    }
+
+    header {
+      background-color: #003366;
+      padding: 20px;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo img {
+      height: 80px;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #003366;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      padding: 40px 20px;
+      background-color: #003366; /* 🔵 Přidáno modré pozadí jako původně */
+    }
+
+    .buttons button {
+      background-color: #ffffff;
+      color: #003366;
+      border: none;
+      border-radius: 30px;
+      padding: 15px 30px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .buttons button:hover {
+      background-color: #cccccc;
+    }
+
+    footer {
+      background-color: #002244;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 0 20px;
+    }
+
+    footer .contact {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-weight: bold;
+      color: #ffffff;
+      font-size: 14px;
+    }
+
+    footer .social {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    footer .social img {
+      width: 20px;
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="Logo Praha 1">
+      </div>
+      <nav>
+  <ul>
+    <li><a href="index.html">Úvod</a></li>
+    <li><a href="komunitni-planovani.html">Komunitní plánování sociálních služeb</a></li>
+    <li><a href="aktuality.html">Aktuality</a></li>
+    <li><a href="#">Pro poskytovatele služeb</a></li>
+    <li><a href="#">Dokumenty a formuláře</a></li>
+    <li><a href="#">Zapojte se</a></li>
+    <li><a href="#">Kontakty</a></li>
+  </ul>
+</nav>
+
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Katalog sociálních a doplňkových služeb v Praze 1</h1>
+  </section>
+
+  <section class="buttons">
+  <a href="kontaktni-misto-pro-bydleni.html" class="btn">Kontaktní místo pro bydlení</a>
+  <button>Zdravotně postižení - dospělí</button>
+  <button>Zdravotně postižení - děti</button>
+  <button>Pomoc s psychickými obtížemi</button>
+  <button>Podpora rodiny</button>
+  <button>Služby pro cizince</button>
+  <button>Po výkonu trestu</button>
+  <button>Závislosti</button>
+  <button>Násilí v rodině</button>
+  <button>Vaše práva a povinnosti</button>
+  <button>Dluhové poradenství</button>
+  <button>Osoby bez domova</button>
+  <button>Senioři</button>
+
+</section>
+
+  <footer>
+    <div class="social">
+      <a href="https://www.instagram.com/ivana___antalova/" target="_blank">
+        <img src="images/Instagram-logo.jpg" alt="Instagram">
+      </a>
+      <a href="https://www.facebook.com/IvkaAntalova" target="_blank">
+        <img src="images/Facebook-logo.jpg" alt="Facebook">
+      </a>
+    </div>
+    <div class="contact">
+      📞 Potřebujete poradit? +420 221 097 110
+    </div>
+  </footer>
+
+</body>
+</html>
